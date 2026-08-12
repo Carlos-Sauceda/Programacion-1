@@ -27,15 +27,19 @@ public class CalculodeVariables {
         //Perimetro
        
         System.out.println("Calculo del area y perimetro de un rectangulo");
+        System.out.println("");
          
         System.out.print("Ingrese la base del rectangulo: ");
         double base = entrada.nextDouble();
+        System.out.println("");
         
         System.out.print("Ingrese la altura del rectangulo: ");
         double altura = entrada.nextDouble();
+        System.out.println("");
         
         double area = base * altura;
         double perimetro = 2 * (base + altura);
+        System.out.println("");
         
        
         System.out.println("Area del rectangulo: " + area);
